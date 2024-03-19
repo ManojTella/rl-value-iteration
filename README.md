@@ -9,24 +9,24 @@ The problem involves using the Value Iteration algorithm to find the best strate
 ## POLICY ITERATION ALGORITHM
 ##### Environment Setup:
 
-*The code begins by importing necessary libraries and setting up the Frozen Lake environment using Gym. It also initializes the initial state, goal state, and transition probabilities (P).
+* The code begins by importing necessary libraries and setting up the Frozen Lake environment using Gym. It also initializes the initial state, goal state, and transition probabilities (P).
 
 ##### Value Iteration Algorithm:
 
-  *The core algorithm used in this code is Value Iteration. Value Initialization:
+* The core algorithm used in this code is Value Iteration. Value Initialization:
   
-*Initialize a value function (V) with zeros for each state. Value Iteration Loop:
+* Initialize a value function (V) with zeros for each state. Value Iteration Loop:
 
-*For each state (s), calculate the Q-values for all possible actions (a) using the Bellman equation. The Q-value represents the expected cumulative reward when taking action 'a' from state 's'.
+* For each state (s), calculate the Q-values for all possible actions (a) using the Bellman equation. The Q-value represents the expected cumulative reward when taking action 'a' from state 's'.
 
-*Update the value function (V) by taking the maximum Q-value for each state.
+* Update the value function (V) by taking the maximum Q-value for each state.
 
-*Check for convergence: If the maximum change in value function (V) is smaller than a threshold (theta), break the loop.
+* Check for convergence: If the maximum change in value function (V) is smaller than a threshold (theta), break the loop.
 
-*After convergence, derive the optimal policy (pi) by selecting actions that maximize the Q-values. 
+* After convergence, derive the optimal policy (pi) by selecting actions that maximize the Q-values. 
 
 ##### Results:
-*The code prints the optimal policy, its state-value function, the success rate of reaching the goal, and the mean undiscounted return of the optimal policy.
+* The code prints the optimal policy, its state-value function, the success rate of reaching the goal, and the mean undiscounted return of the optimal policy.
 
 ## VALUE ITERATION FUNCTION
 ```
