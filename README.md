@@ -59,4 +59,4 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
 
 
 ## RESULT:
-Thus, an optimal policy for an agent navigating a grid-world with slippery tiles, aiming to reach a goal state while maximizing expected rewards using value iteration algorithm is successfully implemented
+Thus, an optimal policy for an agent navigating a grid-world with slippery tiles, aiming to reach a goal state while maximizing expected rewards using value iteration algorithm is implemented successfully.
